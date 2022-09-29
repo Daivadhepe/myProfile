@@ -16,9 +16,17 @@
             color: deeppink;
         }
 
-        footer {
-            background-color: cornsilk;
-            color: rgb(255, 88, 88);
+        footer div li{
+                display: inline-block;
+               border: 3px solid rgb(13, 12, 12);
+               margin-right: 20px;
+               background-color: cornsilk;
+               color: rgb(255, 88, 88);
+               width: 200px;
+               height: 40px;
+               text-align: center;
+            font-size: 30px; 
+           
         }
 
         footer div span {
@@ -45,18 +53,27 @@
 
         }
 
-        header div span {
-            text-align: center;
-            font-size: 30px;
-            margin-right: 40px;
-            margin-left: 30px;
+       
 
-        }
+        
 
         .nav-itom a {
-            margin-right: 40px;
+            margin-right: 40px;  }
            
-        }
+        .nav-itom a:hover { 
+            text-shadow: 8px 2px 5px #9b2e18; }
+           header div li{
+                display: inline-block;
+               border: 3px solid rgb(13, 12, 12);
+               margin-right: 20px;
+               width: 400px;
+               height: 40px;
+               text-align: center;
+            font-size: 30px;
+              
+            }
+           
+      
         
     </style>
 
@@ -65,9 +82,10 @@
 <body>
     <header>
         <div>
-           <span> <i class="fa fa-user-circle-o" aria-hidden="true"></i>: Daivashala Dhepe </span>
-           <span><i class="fa fa-phone-square" aria-hidden="true"></i>: 8668 74 7445 </span>
-            <span> <i class="fa fa-envelope" aria-hidden="true"></i>: daivapatil7gmail.com </div> </span>
+            <ol> 
+            <li>  <i class="fa fa-user-circle-o" aria-hidden="true"></i>: Daivashala Dhepe </li>
+            <li> <i class="fa fa-phone-square" aria-hidden="true"></i>: 8668 74 7445 </li>
+            <li>  <i class="fa fa-envelope" aria-hidden="true"></i>: daivapatil7gmail.com  </div> </li></ol>
     </header>
     <hr>
     <nav class="nav-itom">
@@ -77,7 +95,7 @@
         <a href="project.html" target="myFrame"> PROJECT </a>
         <a href="hobbies.html" target="myFrame"> HOBBIES </a>
         <a href="personal.html" target="myFrame"> PERSONAL </a>
-        <a href="others.html" target="_blank"> OTHERS </a>
+        <a href="others.html" target="myFrame"> OTHERS </a>
     </nav>
 
 
@@ -90,17 +108,18 @@
     <hr>
     <footer>
         <div>
-            <span> Follow me : </span>
+            <ol> 
+           <li>  Follow me : </li>
 
-            <span> <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-square"
-                        aria-hidden="true"></i> </a> </span>
-            <span> <a href="https://www.linkedin.com/" target="_blank"> <i class="fa fa-linkedin-square"
-                        aria-hidden="true"></i> </a> </span>
-            <span> <a href="https://www.twitwe.com/" target="_blank"><i class="fa fa-twitter-square"
-                        aria-hidden="true"></i> </a> </span>
-            <span><a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"
-                        aria-hidden="true"></i> </a> </span>
-        </div>
+           <li> <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-square"
+                        aria-hidden="true"></i> </a> </li>
+                        <li><a href="https://www.linkedin.com/" target="_blank"> <i class="fa fa-linkedin-square"
+                        aria-hidden="true"></i> </a> </li>
+                        <li> <a href="https://www.twitwe.com/" target="_blank"><i class="fa fa-twitter-square"
+                        aria-hidden="true"></i> </a> </li>
+                        <li><a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"
+                        aria-hidden="true"></i> </a> </li>
+        </div></ol>
     </footer>
 
 
